@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaCentral - Your gateway to entertainment and tools</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #2d2d2d;
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            margin-bottom: 15px;
+        }
+
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .tagline {
+            color: #e5e5e5;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .categories {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .category-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .category-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .category-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .category-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 10px;
+        }
+
+        .category-description {
+            font-size: 16px;
+            color: #6b7280;
+        }
+
+        /* Icon colors */
+        .icon-purple { color: #9333ea; }
+        .icon-blue { color: #3b82f6; }
+        .icon-green { color: #10b981; }
+        .icon-pink { color: #ec4899; }
+        .icon-orange { color: #f97316; }
+        .icon-blue-shield { color: #2563eb; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="/robtheweb.png" alt="MediaCentral Logo">
+            </div>
+            <div class="tagline">Your gateway to entertainment and tools</div>
+        </div>
+
+        <div class="categories">
+            <a href="/games" class="category-card">
+                <div class="category-icon icon-purple">🎮</div>
+                <div class="category-title">Games</div>
+                <div class="category-description">Discover amazing games and gaming resources</div>
+            </a>
+
+            <a href="/movies" class="category-card">
+                <div class="category-icon icon-purple">🎬</div>
+                <div class="category-title">Movies/Shows</div>
+                <div class="category-description">Stream your favorite movies and TV shows</div>
+            </a>
+
+            <a href="/streaming" class="category-card">
+                <div class="category-icon icon-purple">📺</div>
+                <div class="category-title">Streaming</div>
+                <div class="category-description">Live Sports & TV</div>
+            </a>
+
+            <a href="/books" class="category-card">
+                <div class="category-icon icon-green">📚</div>
+                <div class="category-title">Books</div>
+                <div class="category-description">Digital libraries and reading resources</div>
+            </a>
+
+            <a href="/anime" class="category-card">
+                <div class="category-icon icon-pink">🌸</div>
+                <div class="category-title">Anime</div>
+                <div class="category-description">Anime streaming and manga resources</div>
+            </a>
+
+            <a href="/adblockers" class="category-card">
+                <div class="category-icon icon-blue-shield">🛡️</div>
+                <div class="category-title">AdBlockers</div>
+                <div class="category-description">Ad blocking tools and privacy extensions</div>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
+
