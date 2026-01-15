@@ -12,6 +12,10 @@ app.get('/', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools. ">
+    <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://ZugList.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>ZugList</title>
@@ -1633,7 +1637,7 @@ app.get('/ebooks', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
-    <head>\
+    <head>
     <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
