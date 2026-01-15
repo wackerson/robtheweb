@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>ZuggyList</title>
+      <title>ZugList</title>
       <style>
         * {
           margin: 0;
@@ -106,7 +106,7 @@ app.get('/', (req, res) => {
     </head>
     <body>
       <div class="title-section">
-        <h1 class="main-title">ZuggyList</h1>
+        <h1 class="main-title">ZugList</h1>
         <div class="greeting">Ahoy, Mateys!</div>
         <div class="warning-text">Be sure to use AdBlock and VPN if needed.</div>
       </div>
@@ -238,14 +238,14 @@ app.get('/movies', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
-    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools. ">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://zuggylist.cc${req.path}">
+    <link rel="canonical" href="https://ZugList.cc${req.path}">
 
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Movies/TV Shows - ZuggyList</title>
+      <title>Movies/TV Shows - ZugList</title>
       <style>
         * {
           margin: 0;
@@ -357,7 +357,7 @@ app.get('/movies', (req, res) => {
     </head>
     <body>
       <div class="title-section">
-        <h1 class="main-title">ZuggyList</h1>
+        <h1 class="main-title">ZugList</h1>
         <div class="greeting">Ahoy, Mateys!</div>
         <div class="warning-text">Be sure to use <span class="highlight">AdBlock</span> and <span class="highlight">VPN</span> if needed.</div>
       </div>
@@ -406,14 +406,14 @@ app.get('/anime', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
-    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://zuggylist.cc${req.path}">
+    <link rel="canonical" href="https://ZugList.cc${req.path}">
 
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Anime - ZuggyList</title>
+      <title>Anime - ZugList</title>
       <style>
         * {
           margin: 0;
@@ -531,7 +531,7 @@ app.get('/anime', (req, res) => {
     </head>
     <body>
       <div class="title-section">
-        <h1 class="main-title">ZuggyList</h1>
+        <h1 class="main-title">ZugList</h1>
         <div class="greeting">Ahoy, Mateys!</div>
         <div class="warning-text">Be sure to use <span class="highlight">AdBlock</span> and <span class="highlight">VPN</span> if needed.</div>
       </div>
@@ -572,13 +572,13 @@ app.get('/manga', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
-    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://zuggylist.cc${req.path}">
+    <link rel="canonical" href="https://ZugList.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Manga - ZuggyList</title>
+      <title>Manga - ZugList</title>
       <style>
         * {
           margin: 0;
@@ -696,7 +696,7 @@ app.get('/manga', (req, res) => {
     </head>
     <body>
       <div class="title-section">
-        <h1 class="main-title">ZuggyList</h1>
+        <h1 class="main-title">ZugList</h1>
         <div class="greeting">Ahoy, Mateys!</div>
         <div class="warning-text">Be sure to use <span class="highlight">AdBlock</span> and <span class="highlight">VPN</span> if needed.</div>
       </div>
@@ -747,13 +747,13 @@ app.get('/sports', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
-    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://zuggylist.cc${req.path}">
+    <link rel="canonical" href="https://ZugList.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Live Sports - ZuggyList</title>
+      <title>Live Sports - ZugList</title>
       <style>
         * {
           margin: 0;
@@ -894,7 +894,7 @@ app.get('/sports', (req, res) => {
     </head>
     <body>
       <div class="title-section">
-        <h1 class="main-title">ZuggyList</h1>
+        <h1 class="main-title">ZugList</h1>
         <div class="greeting">Ahoy, Mateys!</div>
         <div class="warning-text">Be sure to use <span class="highlight">AdBlock</span> and <span class="highlight">VPN</span> if needed.</div>
       </div>
@@ -937,13 +937,13 @@ app.get('/live-tv', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
-    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://zuggylist.cc${req.path}">
+    <link rel="canonical" href="https://ZugList.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Live TV - ZuggyList</title>
+      <title>Live TV - ZugList</title>
       <style>
         * {
           margin: 0;
@@ -1061,7 +1061,7 @@ app.get('/live-tv', (req, res) => {
     </head>
     <body>
       <div class="title-section">
-        <h1 class="main-title">ZuggyList</h1>
+        <h1 class="main-title">ZugList</h1>
         <div class="greeting">Ahoy, Mateys!</div>
         <div class="warning-text">Be sure to use <span class="highlight">AdBlock</span> and <span class="highlight">VPN</span> if needed.</div>
       </div>
@@ -1102,13 +1102,13 @@ app.get('/torrents', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
-    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://zuggylist.cc${req.path}">
+    <link rel="canonical" href="https://ZugList.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Torrents - ZuggyList</title>
+      <title>Torrents - ZugList</title>
       <style>
         * {
           margin: 0;
@@ -1226,7 +1226,7 @@ app.get('/torrents', (req, res) => {
     </head>
     <body>
       <div class="title-section">
-        <h1 class="main-title">ZuggyList</h1>
+        <h1 class="main-title">ZugList</h1>
         <div class="greeting">Ahoy, Mateys!</div>
         <div class="warning-text">Be sure to use <span class="highlight">AdBlock</span> and <span class="highlight">VPN</span> if needed.</div>
       </div>
@@ -1265,13 +1265,13 @@ app.get('/games', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
-    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://zuggylist.cc${req.path}">
+    <link rel="canonical" href="https://ZugList.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Games - ZuggyList</title>
+      <title>Games - ZugList</title>
       <style>
         * {
           margin: 0;
@@ -1389,7 +1389,7 @@ app.get('/games', (req, res) => {
     </head>
     <body>
       <div class="title-section">
-        <h1 class="main-title">ZuggyList</h1>
+        <h1 class="main-title">ZugList</h1>
         <div class="greeting">Ahoy, Mateys!</div>
         <div class="warning-text">Be sure to use <span class="highlight">AdBlock</span> and <span class="highlight">VPN</span> if needed.</div>
       </div>
@@ -1430,13 +1430,13 @@ app.get('/music', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
-    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://zuggylist.cc${req.path}">
+    <link rel="canonical" href="https://ZugList.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Music - ZuggyList</title>
+      <title>Music - ZugList</title>
       <style>
         * {
           margin: 0;
@@ -1573,7 +1573,7 @@ app.get('/music', (req, res) => {
     </head>
     <body>
       <div class="title-section">
-        <h1 class="main-title">ZuggyList</h1>
+        <h1 class="main-title">ZugList</h1>
         <div class="greeting">Ahoy, Mateys!</div>
         <div class="warning-text">Be sure to use <span class="highlight">AdBlock</span> and <span class="highlight">VPN</span> if needed.</div>
       </div>
@@ -1634,13 +1634,13 @@ app.get('/ebooks', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>\
-    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://zuggylist.cc${req.path}">
+    <link rel="canonical" href="https://ZugList.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>eBooks - ZuggyList</title>
+      <title>eBooks - ZugList</title>
       <style>
         * {
           margin: 0;
@@ -1777,7 +1777,7 @@ app.get('/ebooks', (req, res) => {
     </head>
     <body>
       <div class="title-section">
-        <h1 class="main-title">ZuggyList</h1>
+        <h1 class="main-title">ZugList</h1>
         <div class="greeting">Ahoy, Mateys!</div>
         <div class="warning-text">Be sure to use <span class="highlight">AdBlock</span> and <span class="highlight">VPN</span> if needed.</div>
       </div>
@@ -1840,13 +1840,13 @@ app.get('/comics', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
-      <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+      <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
       <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
       <meta name="robots" content="index, follow">
-      <link rel="canonical" href="https://zuggylist.cc${req.path}">
+      <link rel="canonical" href="https://ZugList.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Comics - ZuggyList</title>
+      <title>Comics - ZugList</title>
       <style>
         * {
           margin: 0;
@@ -1964,7 +1964,7 @@ app.get('/comics', (req, res) => {
     </head>
     <body>
       <div class="title-section">
-        <h1 class="main-title">ZuggyList</h1>
+        <h1 class="main-title">ZugList</h1>
         <div class="greeting">Ahoy, Mateys!</div>
         <div class="warning-text">Be sure to use <span class="highlight">AdBlock</span> and <span class="highlight">VPN</span> if needed.</div>
       </div>
