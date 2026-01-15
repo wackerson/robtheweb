@@ -238,6 +238,11 @@ app.get('/movies', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://zuggylist.cc${req.path}">
+
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Movies/TV Shows - ZuggyList</title>
@@ -401,6 +406,11 @@ app.get('/anime', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://zuggylist.cc${req.path}">
+
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Anime - ZuggyList</title>
@@ -562,6 +572,10 @@ app.get('/manga', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://zuggylist.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Manga - ZuggyList</title>
@@ -733,6 +747,10 @@ app.get('/sports', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://zuggylist.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Live Sports - ZuggyList</title>
@@ -919,6 +937,10 @@ app.get('/live-tv', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://zuggylist.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Live TV - ZuggyList</title>
@@ -1080,6 +1102,10 @@ app.get('/torrents', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://zuggylist.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Torrents - ZuggyList</title>
@@ -1239,6 +1265,10 @@ app.get('/games', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://zuggylist.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Games - ZuggyList</title>
@@ -1400,6 +1430,10 @@ app.get('/music', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://zuggylist.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Music - ZuggyList</title>
@@ -1599,7 +1633,11 @@ app.get('/ebooks', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+    <head>\
+    <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+    <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://zuggylist.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>eBooks - ZuggyList</title>
@@ -1802,6 +1840,10 @@ app.get('/comics', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+      <meta name="description" content="ZuggyList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
+      <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
+      <meta name="robots" content="index, follow">
+      <link rel="canonical" href="https://zuggylist.cc${req.path}">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Comics - ZuggyList</title>
