@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+    <head><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z26KN7LMXE"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());    gtag('config', 'G-Z26KN7LMXE'); </script>
     <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools. ">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
@@ -241,7 +241,7 @@ app.get('/movies', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+    <head><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z26KN7LMXE"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());    gtag('config', 'G-Z26KN7LMXE'); </script>
     <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools. ">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
@@ -409,7 +409,7 @@ app.get('/anime', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+    <head><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z26KN7LMXE"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());    gtag('config', 'G-Z26KN7LMXE'); </script>
     <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
@@ -575,7 +575,7 @@ app.get('/manga', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+    <head><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z26KN7LMXE"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());    gtag('config', 'G-Z26KN7LMXE'); </script>
     <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
@@ -750,7 +750,7 @@ app.get('/sports', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+    <head><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z26KN7LMXE"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());    gtag('config', 'G-Z26KN7LMXE'); </script>
     <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
@@ -940,7 +940,7 @@ app.get('/live-tv', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+    <head><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z26KN7LMXE"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());    gtag('config', 'G-Z26KN7LMXE'); </script>
     <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
@@ -1105,7 +1105,7 @@ app.get('/torrents', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+    <head><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z26KN7LMXE"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());    gtag('config', 'G-Z26KN7LMXE'); </script>
     <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
@@ -1268,7 +1268,7 @@ app.get('/games', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+    <head><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z26KN7LMXE"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());    gtag('config', 'G-Z26KN7LMXE'); </script>
     <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
@@ -1433,7 +1433,7 @@ app.get('/music', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+    <head><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z26KN7LMXE"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());    gtag('config', 'G-Z26KN7LMXE'); </script>
     <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
@@ -1637,7 +1637,7 @@ app.get('/ebooks', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+    <head><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z26KN7LMXE"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());    gtag('config', 'G-Z26KN7LMXE'); </script>
     <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
     <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
     <meta name="robots" content="index, follow">
@@ -1843,7 +1843,7 @@ app.get('/comics', (req, res) => {
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+    <head><!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z26KN7LMXE"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());    gtag('config', 'G-Z26KN7LMXE'); </script>
       <meta name="description" content="ZugList is a curated index of movies, anime, manga, live sports, TV, games, music, eBooks, torrents, and streaming tools.">
       <meta name="keywords" content="free streaming, movies, anime, manga, live sports, IPTV, torrents, games, music downloads, eBooks">
       <meta name="robots" content="index, follow">
