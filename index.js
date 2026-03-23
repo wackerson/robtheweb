@@ -311,6 +311,17 @@ app.get('/movies', (req, res) => {
           transform: translateX(5px);
         }
 
+        .link-item.preferred {
+          background-color: #1a2a1a;
+          border: 2px solid #FFD700;
+          box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+        }
+
+        .link-item.preferred:hover {
+          background-color: #1f3a1f;
+          box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+        }
+
         .link-item a {
           display: flex;
           align-items: center;
@@ -327,9 +338,21 @@ app.get('/movies', (req, res) => {
           flex-shrink: 0;
         }
 
+        .star-icon {
+          color: #FFD700;
+          font-size: 16px;
+          margin-right: 8px;
+          flex-shrink: 0;
+        }
+
         .link-domain {
           font-size: 16px;
           color: #ffffff;
+        }
+
+        .link-item.preferred .link-domain {
+          color: #FFD700;
+          font-weight: bold;
         }
 
         @media (max-width: 768px) {
@@ -352,14 +375,18 @@ app.get('/movies', (req, res) => {
       <div class="links-container">
         <a href="/" class="back-link">← Back to Categories</a>
         
-        ${movieSites.map(site => `
-          <div class="link-item">
+        ${movieSites.map((site, index) => {
+          const isPreferred = index === 0;
+          return `
+          <div class="link-item ${isPreferred ? 'preferred' : ''}">
             <a href="https://${site}" target="_blank" rel="noopener noreferrer">
+              ${isPreferred ? '<span class="star-icon">★</span>' : ''}
               <span class="play-icon">►</span>
               <span class="link-domain">${site}</span>
             </a>
           </div>
-        `).join('')}
+        `;
+        }).join('')}
       </div>
     </body>
     </html>
@@ -889,7 +916,7 @@ app.get('/sports', (req, res) => {
         <a href="/" class="back-link">← Back to Categories</a>
         
         ${sportsSites.map((site, index) => {
-          const isPreferred = index < 2;
+          const isPreferred = index === 0;
           return `
           <div class="link-item ${isPreferred ? 'preferred' : ''}">
             <a href="https://${site}" target="_blank" rel="noopener noreferrer">
