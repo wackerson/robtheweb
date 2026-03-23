@@ -709,7 +709,6 @@ app.get('/manga', (req, res) => {
 app.get('/sports', (req, res) => {
   const sportsSites = [
     'supra-stream.com',
-    'allstreamcc.com',
     'livetv.sx',
     'totalsportek.events',
     'sportsurge.net',
